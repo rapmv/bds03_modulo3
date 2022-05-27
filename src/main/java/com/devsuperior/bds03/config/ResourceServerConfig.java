@@ -45,6 +45,4 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter{
 		.anyRequest().hasAnyRole("ADMIN");		
 	}
 
-	
-
 }
